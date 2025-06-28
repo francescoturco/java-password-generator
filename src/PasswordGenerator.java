@@ -27,7 +27,11 @@ public class PasswordGenerator {
         System.out.print("Inserisci l'anno di nascita: ");
         int anno = scan.nextInt();
 
-      
+        // Calcolo somma
+        int sommaData = giorno + mese + anno;
+
+       
+
     }
 
 }
